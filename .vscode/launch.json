@@ -18,6 +18,11 @@
             "miDebuggerPath": "/usr/bin/gdb",
             "setupCommands": [
                 {
+                    "description": "Link raylib",
+                    "text": "-lraylib",
+                    "ignoreFailures": true
+                },
+                {
                     "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
